@@ -1,0 +1,14 @@
+{
+  "name": "tablechance-copenhagen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tablechance Copenhagen surprise-dining concept",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node render-server.cjs",
+    "test": "node core.test.mjs && node countdown.test.mjs"
+  }
+}

@@ -1,0 +1,13 @@
+Build Tablechance Copenhagen, a separate Copenhagen edition of our existing surprise-dining website.
+
+Keep the warm, editorial design, generous real photography and short, natural copy. Lead with “Book a surprise table. Enjoy a new experience.” Do not promise discounts or show prices or booking fees. Booking is free; meals are paid at the restaurant.
+
+Make the journey quick: number of guests → date and time → neighbourhood → review five possible restaurants → book. Use five compact Copenhagen neighbourhood packages, each centred on a real restaurant. Show every possible restaurant before booking, with one featured possibility, a name, a photograph and optional details. Avoid clutter and long explanations.
+
+Use a real interactive street map with numbered restaurant pins and a circular area boundary. Verify pedestrian routes from the package centre; only permit booking when every restaurant is within an estimated five-minute walk. A circle is a visual boundary, not proof of walking time. Allow an optional different starting point and explain route failures clearly.
+
+After booking, show a small character standing on the map and a countdown. Keep the assigned restaurant hidden until 15 minutes before the reservation. Save the demo booking in the browser so refreshing does not lose it. Use Europe/Copenhagen local time, including daylight saving time.
+
+Use real Copenhagen venue names, addresses and attributable photographs. Clearly identify availability, bookings, random assignment and example reviews as a concept demonstration. Do not imply restaurant partnerships or confirmed reservations. Do not invent customer reviews or prestige awards. Include a discreet source and photography panel.
+
+Build a responsive, accessible website that works in Safari and on mobile. Preserve the Lisbon website. Save the Copenhagen source in a separate GitHub repository and deploy it to Render with the walking-route API and automatic deployment from GitHub. Verify the public site, complete booking flow, countdown persistence, reveal timing and map behaviour. Deliver the prompt, GitHub link and live Render link.

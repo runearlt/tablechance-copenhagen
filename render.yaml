@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: tablechance-copenhagen
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeployTrigger: commit

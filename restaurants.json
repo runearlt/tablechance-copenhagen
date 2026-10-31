@@ -1,0 +1,2100 @@
+{
+  "checkedOn": "2026-10-31",
+  "bookingIsFree": true,
+  "starts": [
+    {
+      "id": "kodbyen",
+      "name": "Gorilla · package centre",
+      "anchor": "gorilla",
+      "lat": 55.667840299,
+      "lng": 12.5609821
+    },
+    {
+      "id": "norrebro",
+      "name": "Kiin Kiin · package centre",
+      "anchor": "kiin",
+      "lat": 55.6919234,
+      "lng": 12.5573888
+    },
+    {
+      "id": "vaernedamsvej",
+      "name": "Les Trois Cochons · package centre",
+      "anchor": "cochons",
+      "lat": 55.6736876,
+      "lng": 12.5499143
+    },
+    {
+      "id": "grabrodretorv",
+      "name": "Bobe · package centre",
+      "anchor": "bobe",
+      "lat": 55.67967258,
+      "lng": 12.57605379
+    },
+    {
+      "id": "nyhavn",
+      "name": "Havfruen · package centre",
+      "anchor": "havfruen",
+      "lat": 55.680111,
+      "lng": 12.590678
+    }
+  ],
+  "areas": [
+    {
+      "id": "kodbyen",
+      "name": "Kødbyen · Surprise dining",
+      "subtitle": "Seafood, sharing plates and tables in the old meatpacking district.",
+      "label": "KØDBYEN · 5 POSSIBILITIES",
+      "restaurants": [
+        "fiskebar",
+        "gorilla",
+        "fleisch",
+        "pate",
+        "superbon"
+      ],
+      "featured": "fiskebar",
+      "color": "#426f57",
+      "neighbourhood": "kodbyen",
+      "mapLabel": "Kødbyen",
+      "anchor": "gorilla",
+      "packageName": "Kødbyen dining package"
+    },
+    {
+      "id": "norrebro",
+      "name": "Nørrebro · Surprise dining",
+      "subtitle": "Thai cooking, pizza and neighbourhood tables around Guldbergsgade.",
+      "label": "NØRREBRO · 5 POSSIBILITIES",
+      "restaurants": [
+        "kiin",
+        "baest",
+        "mirabelle",
+        "brus",
+        "mahalle"
+      ],
+      "featured": "kiin",
+      "color": "#426f57",
+      "neighbourhood": "norrebro",
+      "mapLabel": "Nørrebro",
+      "anchor": "kiin",
+      "packageName": "Nørrebro dining package"
+    },
+    {
+      "id": "vaernedamsvej",
+      "name": "Værnedamsvej · Surprise dining",
+      "subtitle": "Bistro tables and small plates on one welcoming street.",
+      "label": "VÆRNEDAMSVEJ · 5 POSSIBILITIES",
+      "restaurants": [
+        "cochons",
+        "hanzo",
+        "viggo",
+        "granola",
+        "falernum"
+      ],
+      "featured": "cochons",
+      "color": "#426f57",
+      "neighbourhood": "vaernedamsvej",
+      "mapLabel": "Værnedamsvej",
+      "anchor": "cochons",
+      "packageName": "Værnedamsvej dining package"
+    },
+    {
+      "id": "grabrodretorv",
+      "name": "Gråbrødretorv · Surprise dining",
+      "subtitle": "Five different kitchens around one of the old city’s lovely squares.",
+      "label": "GRÅBRØDRETORV · 5 POSSIBILITIES",
+      "restaurants": [
+        "bobe",
+        "lepave",
+        "amalfi",
+        "huks",
+        "sporvejen"
+      ],
+      "featured": "bobe",
+      "color": "#426f57",
+      "neighbourhood": "grabrodretorv",
+      "mapLabel": "Gråbrødretorv",
+      "anchor": "bobe",
+      "packageName": "Gråbrødretorv dining package"
+    },
+    {
+      "id": "nyhavn",
+      "name": "Nyhavn · Surprise dining",
+      "subtitle": "Seafood and Danish classics along the harbour.",
+      "label": "NYHAVN · 5 POSSIBILITIES",
+      "restaurants": [
+        "hummer",
+        "caphorn",
+        "havfruen",
+        "heering",
+        "faergekro"
+      ],
+      "featured": "hummer",
+      "color": "#426f57",
+      "neighbourhood": "nyhavn",
+      "mapLabel": "Nyhavn",
+      "anchor": "havfruen",
+      "packageName": "Nyhavn dining package"
+    }
+  ],
+  "neighbourhoods": [
+    {
+      "id": "kodbyen",
+      "name": "Kødbyen",
+      "kicker": "VESTERBRO · THE MEATPACKING DISTRICT",
+      "description": "Seafood, sharing plates and tables in the old meatpacking district.",
+      "photo": "fiskebar-photo",
+      "photoVenue": "Kødbyens Fiskebar",
+      "start": "kodbyen",
+      "detail": "5 possible restaurants. One surprise table.",
+      "areaPhoto": "kodbyen-area",
+      "areaCaption": "Kødbyen · the meatpacking district",
+      "atmosphere": "Old butcher halls. A lively evening."
+    },
+    {
+      "id": "norrebro",
+      "name": "Nørrebro",
+      "kicker": "AROUND GULDBERGSGADE",
+      "description": "Thai cooking, pizza and neighbourhood tables around Guldbergsgade.",
+      "photo": "kiin-photo",
+      "photoVenue": "Kiin Kiin",
+      "start": "norrebro",
+      "detail": "5 possible restaurants. One surprise table.",
+      "areaPhoto": "norrebro-area",
+      "areaCaption": "A wider look at Nørrebro · Superkilen",
+      "atmosphere": "Good company. Something different."
+    },
+    {
+      "id": "vaernedamsvej",
+      "name": "Værnedamsvej",
+      "kicker": "FREDERIKSBERG MEETS VESTERBRO",
+      "description": "Bistro tables and small plates on one welcoming street.",
+      "photo": "cochons-photo",
+      "photoVenue": "Les Trois Cochons",
+      "start": "vaernedamsvej",
+      "detail": "5 possible restaurants. One surprise table.",
+      "areaPhoto": "vaernedamsvej-area",
+      "areaCaption": "Værnedamsvej · Les Trois Cochons",
+      "atmosphere": "A little Paris. A Copenhagen evening."
+    },
+    {
+      "id": "grabrodretorv",
+      "name": "Gråbrødretorv",
+      "kicker": "INDRE BY · THE OLD SQUARE",
+      "description": "Five different kitchens around one of the old city’s lovely squares.",
+      "photo": "bobe-photo",
+      "photoVenue": "Bobe",
+      "start": "grabrodretorv",
+      "detail": "5 possible restaurants. One surprise table.",
+      "areaPhoto": "grabrodretorv-area",
+      "areaCaption": "Gråbrødretorv · the old square",
+      "atmosphere": "Cobblestones. Candlelight. Your table."
+    },
+    {
+      "id": "nyhavn",
+      "name": "Nyhavn",
+      "kicker": "INDRE BY · BY THE WATER",
+      "description": "Seafood and Danish classics along the harbour.",
+      "photo": "hummer-photo",
+      "photoVenue": "Restaurant Hummer",
+      "start": "nyhavn",
+      "detail": "5 possible restaurants. One surprise table.",
+      "areaPhoto": "nyhavn-area",
+      "areaCaption": "Nyhavn · the harbour",
+      "atmosphere": "Colourful houses. A seat by the canal."
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "fiskebar",
+      "name": "Kødbyens Fiskebar",
+      "lat": 55.667795183,
+      "lng": 12.559132575,
+      "address": "Flæsketorvet 100, 1711 København",
+      "cuisine": "Fish & seafood",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/kodbyens-fiskebar-gdk510829",
+      "photo": "fiskebar-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/kodbyens-fiskebar-gdk510829",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.667795183&mlon=12.559132575#map=19/55.667795183/12.559132575"
+    },
+    {
+      "id": "fleisch",
+      "name": "Fleisch",
+      "lat": 55.669064,
+      "lng": 12.558715,
+      "address": "Slagterboderne 7, 1716 København",
+      "cuisine": "Danish cooking",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/fleisch-gdk1021768",
+      "photo": "fleisch-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/fleisch-gdk1021768",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.669064&mlon=12.558715#map=19/55.669064/12.558715"
+    },
+    {
+      "id": "gorilla",
+      "name": "Gorilla",
+      "lat": 55.667840299,
+      "lng": 12.5609821,
+      "address": "Flæsketorvet 63, 1711 København",
+      "cuisine": "Sharing plates",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/gorilla-gdk934401",
+      "photo": "gorilla-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/gorilla-gdk934401",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.667840299&mlon=12.5609821#map=19/55.667840299/12.5609821"
+    },
+    {
+      "id": "superbon",
+      "name": "Superbon",
+      "lat": 55.66923809,
+      "lng": 12.5587436,
+      "address": "Halmtorvet 19, 1700 København",
+      "cuisine": "Asian cooking",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/superbon-gdk1161897",
+      "photo": "superbon-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/superbon-gdk1161897",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.66923809&mlon=12.5587436#map=19/55.66923809/12.5587436"
+    },
+    {
+      "id": "pate",
+      "name": "Paté Paté",
+      "lat": 55.669065864,
+      "lng": 12.55881071,
+      "address": "Slagterboderne 1, 1716 København",
+      "cuisine": "European bistro",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/pate-pate-gdk941981",
+      "photo": "pate-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/pate-pate-gdk941981",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.669065864&mlon=12.55881071#map=19/55.669065864/12.55881071"
+    },
+    {
+      "id": "baest",
+      "name": "Bæst",
+      "lat": 55.6924342,
+      "lng": 12.5562342,
+      "address": "Guldbergsgade 29, 2200 København",
+      "cuisine": "Wood-fired pizza & house-made cheese",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/baest-gdk944378",
+      "photo": "baest-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/baest-gdk944378",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6924342&mlon=12.5562342#map=19/55.6924342/12.5562342"
+    },
+    {
+      "id": "brus",
+      "name": "BRUS",
+      "lat": 55.69187357,
+      "lng": 12.55571352,
+      "address": "Guldbergsgade 29F, 2200 København",
+      "cuisine": "Brewpub dining",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/brus-gdk1080393",
+      "photo": "brus-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/brus-gdk1080393",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.69187357&mlon=12.55571352#map=19/55.69187357/12.55571352"
+    },
+    {
+      "id": "mirabelle",
+      "name": "Mirabelle Spiseria",
+      "lat": 55.69235823,
+      "lng": 12.55615363,
+      "address": "Guldbergsgade 29A, 2200 København",
+      "cuisine": "Sicilian cooking",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/mirabelle-spiseria-gdk1136887",
+      "photo": "mirabelle-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/mirabelle-spiseria-gdk1136887",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.69235823&mlon=12.55615363#map=19/55.69235823/12.55615363"
+    },
+    {
+      "id": "kiin",
+      "name": "Kiin Kiin",
+      "lat": 55.6919234,
+      "lng": 12.5573888,
+      "address": "Guldbergsgade 21, 2200 København",
+      "cuisine": "Contemporary Thai",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/kiin-kiin-gdk412581",
+      "photo": "kiin-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/kiin-kiin-gdk412581",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6919234&mlon=12.5573888#map=19/55.6919234/12.5573888"
+    },
+    {
+      "id": "mahalle",
+      "name": "Mahalle Birkegade",
+      "lat": 55.690328,
+      "lng": 12.558364,
+      "address": "Birkegade 6, 2200 København",
+      "cuisine": "Lebanese mezze",
+      "website": "https://b66i33.wixsite.com/mahallecph/mahalle",
+      "photo": "mahalle-photo",
+      "menu": "https://b66i33.wixsite.com/mahallecph/mahalle",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/search?query=Birkegade%206%20Copenhagen"
+    },
+    {
+      "id": "cochons",
+      "name": "Les Trois Cochons",
+      "lat": 55.6736876,
+      "lng": 12.5499143,
+      "address": "Værnedamsvej 10, 1619 København",
+      "cuisine": "French bistro",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/les-trois-cochons-gdk723033",
+      "photo": "cochons-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/les-trois-cochons-gdk723033",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6736876&mlon=12.5499143#map=19/55.6736876/12.5499143"
+    },
+    {
+      "id": "granola",
+      "name": "Granola",
+      "lat": 55.6734398,
+      "lng": 12.5498307,
+      "address": "Værnedamsvej 5, 1819 København",
+      "cuisine": "Café & bistro",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/granola-gdk412372",
+      "photo": "granola-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/granola-gdk412372",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6734398&mlon=12.5498307#map=19/55.6734398/12.5498307"
+    },
+    {
+      "id": "viggo",
+      "name": "Café Viggo",
+      "lat": 55.6741019,
+      "lng": 12.5497278,
+      "address": "Værnedamsvej 15, 1819 København",
+      "cuisine": "French classics",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/cafe-viggo-gdk807047",
+      "photo": "viggo-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/cafe-viggo-gdk807047",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6741019&mlon=12.5497278#map=19/55.6741019/12.5497278"
+    },
+    {
+      "id": "hanzo",
+      "name": "Hanzō",
+      "lat": 55.67396077,
+      "lng": 12.5500234,
+      "address": "Værnedamsvej 14, 1619 København",
+      "cuisine": "Asian sharing plates",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/hanzo-gdk950366",
+      "photo": "hanzo-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/hanzo-gdk950366",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.67396077&mlon=12.5500234#map=19/55.67396077/12.5500234"
+    },
+    {
+      "id": "falernum",
+      "name": "Falernum",
+      "lat": 55.6741373,
+      "lng": 12.550104099,
+      "address": "Værnedamsvej 16, 1619 København",
+      "cuisine": "Small plates & wine",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/falernum-gdk657724",
+      "photo": "falernum-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/falernum-gdk657724",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6741373&mlon=12.550104099#map=19/55.6741373/12.550104099"
+    },
+    {
+      "id": "bobe",
+      "name": "Bobe",
+      "lat": 55.67967258,
+      "lng": 12.57605379,
+      "address": "Gråbrødretorv 11, 1154 København",
+      "cuisine": "Contemporary cooking by Bo Bech",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/bobe-gdk1151724",
+      "photo": "bobe-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/bobe-gdk1151724",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.67967258&mlon=12.57605379#map=19/55.67967258/12.57605379"
+    },
+    {
+      "id": "sporvejen",
+      "name": "Sporvejen",
+      "lat": 55.6795687,
+      "lng": 12.575624199,
+      "address": "Gråbrødretorv 17, 1154 København",
+      "cuisine": "Burgers in a vintage tram setting",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/sporvejen-gdk644036",
+      "photo": "sporvejen-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/sporvejen-gdk644036",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6795687&mlon=12.575624199#map=19/55.6795687/12.575624199"
+    },
+    {
+      "id": "hummer",
+      "name": "Restaurant Hummer",
+      "lat": 55.679658953091,
+      "lng": 12.592546583584,
+      "address": "Nyhavn 63A, 1051 København",
+      "cuisine": "Lobster & seafood",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/restaurant-hummer-gdk1081419",
+      "photo": "hummer-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/restaurant-hummer-gdk1081419",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.679658953091&mlon=12.592546583584#map=19/55.679658953091/12.592546583584"
+    },
+    {
+      "id": "faergekro",
+      "name": "Nyhavns Færgekro",
+      "lat": 55.6807149,
+      "lng": 12.5879926,
+      "address": "Nyhavn 5, 1051 København",
+      "cuisine": "Danish classics",
+      "website": "https://www.visitcopenhagen.com/copenhagen/planning/nyhavns-faergekro-gdk412443",
+      "photo": "faergekro-photo",
+      "menu": "https://www.visitcopenhagen.com/copenhagen/planning/nyhavns-faergekro-gdk412443",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6807149&mlon=12.5879926#map=19/55.6807149/12.5879926"
+    },
+    {
+      "id": "amalfi",
+      "name": "Amalfi",
+      "address": "Gråbrødretorv 21, 1154 København",
+      "cuisine": "Italian cooking",
+      "website": "https://restaurant-amalfi.dk/en/",
+      "lat": 55.67944,
+      "lng": 12.575354,
+      "photo": "amalfi-photo",
+      "menu": "https://restaurant-amalfi.dk/en/",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.67944&mlon=12.575354#map=19/55.67944/12.575354"
+    },
+    {
+      "id": "lepave",
+      "name": "Le Pavé",
+      "address": "Gråbrødretorv 14, 1154 København",
+      "cuisine": "French cooking",
+      "website": "https://lepave.dk/om-le-pave/",
+      "lat": 55.6797205,
+      "lng": 12.5754643,
+      "photo": "lepave-photo",
+      "menu": "https://lepave.dk/om-le-pave/",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6797205&mlon=12.5754643#map=19/55.6797205/12.5754643"
+    },
+    {
+      "id": "huks",
+      "name": "Huks Fluks",
+      "address": "Gråbrødretorv 8, 1154 København",
+      "cuisine": "Mediterranean sharing plates",
+      "website": "https://tholstrup.dk/en/huks-fluks/",
+      "lat": 55.6800517,
+      "lng": 12.5758554,
+      "photo": "huks-photo",
+      "menu": "https://tholstrup.dk/en/huks-fluks/",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6800517&mlon=12.5758554#map=19/55.6800517/12.5758554"
+    },
+    {
+      "id": "caphorn",
+      "name": "Cap Horn",
+      "address": "Nyhavn 21, 1051 København",
+      "cuisine": "Danish bistro",
+      "website": "https://tholstrup.dk/en/cap-horn/",
+      "lat": 55.6804068,
+      "lng": 12.5895232,
+      "photo": "caphorn-photo",
+      "menu": "https://tholstrup.dk/en/cap-horn/",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.6804068&mlon=12.5895232#map=19/55.6804068/12.5895232"
+    },
+    {
+      "id": "havfruen",
+      "name": "Havfruen",
+      "address": "Nyhavn 39, 1051 København",
+      "cuisine": "Seafood bistro",
+      "website": "https://www.restauranthavfruen.dk/",
+      "lat": 55.680111,
+      "lng": 12.590678,
+      "photo": "havfruen-photo",
+      "menu": "https://www.restauranthavfruen.dk/",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.680111&mlon=12.590678#map=19/55.680111/12.590678"
+    },
+    {
+      "id": "heering",
+      "name": "Heering",
+      "address": "Nyhavn 15, 1051 København",
+      "cuisine": "Danish classics",
+      "website": "https://restaurantheering.dk/en/home/",
+      "lat": 55.680554,
+      "lng": 12.588985,
+      "photo": "heering-photo",
+      "menu": "https://restaurantheering.dk/en/home/",
+      "sourceLabel": "Venue details & current hours",
+      "hoursText": "Demo service: 18:00–22:00. Check the venue website for actual opening hours.",
+      "hours": [
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ],
+        [
+          [
+            1080,
+            1320
+          ]
+        ]
+      ],
+      "service": "Sit-down dining",
+      "osm": "https://www.openstreetmap.org/?mlat=55.680554&mlon=12.588985#map=19/55.680554/12.588985"
+    }
+  ],
+  "photos": [
+    {
+      "id": "fiskebar-photo",
+      "file": "https://files.guidedanmark.org/files/382/168396_Kdbyens-Fiskebar_Martin-Heiberg.jpg",
+      "title": "Kødbyens Fiskebar",
+      "caption": "Kødbyens Fiskebar",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/kodbyens-fiskebar-gdk510829",
+      "author": "© Wonderful Copenhagen · Martin Heiberg",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/kodbyens-fiskebar-gdk510829",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "fiskebar"
+    },
+    {
+      "id": "fleisch-photo",
+      "file": "https://files.guidedanmark.org/files/382/125695_Fleisch_PR_photo.jpg",
+      "title": "Fleisch",
+      "caption": "Fleisch",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/fleisch-gdk1021768",
+      "author": "© Fleisch · Pr Photo",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/fleisch-gdk1021768",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "fleisch"
+    },
+    {
+      "id": "gorilla-photo",
+      "file": "https://files.guidedanmark.org/files/382/172990_Restaurant_Gorilla_PR_photo.jpg",
+      "title": "Gorilla",
+      "caption": "Gorilla",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/gorilla-gdk934401",
+      "author": "© Restaurant Gorilla · Wonderful Copenhagen",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/gorilla-gdk934401",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "gorilla"
+    },
+    {
+      "id": "superbon-photo",
+      "file": "https://files.guidedanmark.org/files/382/368969_Superbon.jpg",
+      "title": "Superbon",
+      "caption": "Superbon",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/superbon-gdk1161897",
+      "author": "Cofoco",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/superbon-gdk1161897",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "superbon"
+    },
+    {
+      "id": "pate-photo",
+      "file": "https://files.guidedanmark.org/files/382/367965_Pat_Pat_11.jpg",
+      "title": "Paté Paté",
+      "caption": "Paté Paté",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/pate-pate-gdk941981",
+      "author": "Paté Paté",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/pate-pate-gdk941981",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "pate"
+    },
+    {
+      "id": "baest-photo",
+      "file": "https://files.guidedanmark.org/files/382/146285_2016_Juli_Bst_P.A.-Jrgensen1_ISpot.jpg",
+      "title": "Bæst",
+      "caption": "Bæst",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/baest-gdk944378",
+      "author": "P.A. Jørgensen",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/baest-gdk944378",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "baest"
+    },
+    {
+      "id": "brus-photo",
+      "file": "https://files.guidedanmark.org/files/382/331149_BRUS.jpg",
+      "title": "BRUS",
+      "caption": "BRUS",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/brus-gdk1080393",
+      "author": "© Wonderful Copenhagen · BRUS",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/brus-gdk1080393",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "brus"
+    },
+    {
+      "id": "mirabelle-photo",
+      "file": "https://files.guidedanmark.org/files/382/316553_mirabelle_spiseria.jpg",
+      "title": "Mirabelle Spiseria",
+      "caption": "Mirabelle Spiseria",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/mirabelle-spiseria-gdk1136887",
+      "author": "© Mirabelle Spiseria · Vojtech Tesarek",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/mirabelle-spiseria-gdk1136887",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "mirabelle"
+    },
+    {
+      "id": "kiin-photo",
+      "file": "https://files.guidedanmark.org/files/382/769_Kiin_Kiin_Pr_Photo.jpg",
+      "title": "Kiin Kiin",
+      "caption": "Kiin Kiin",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/kiin-kiin-gdk412581",
+      "author": "© Kiin Kiin · Pr Photo",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/kiin-kiin-gdk412581",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "kiin"
+    },
+    {
+      "id": "mahalle-photo",
+      "file": "https://static.wixstatic.com/media/deb8ce_5532d11d88ec400c92083a2be6fbf847~mv2.jpg",
+      "title": "Mahalle Birkegade",
+      "caption": "Mahalle Birkegade",
+      "source": "https://b66i33.wixsite.com/mahallecph/mahalle",
+      "author": "Mahalle / official Birkegade page",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://b66i33.wixsite.com/mahallecph/mahalle",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "mahalle"
+    },
+    {
+      "id": "cochons-photo",
+      "file": "https://files.guidedanmark.org/files/382/368847_Les_Trois_Cochons.jpg",
+      "title": "Les Trois Cochons",
+      "caption": "Les Trois Cochons",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/les-trois-cochons-gdk723033",
+      "author": "Cofoco",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/les-trois-cochons-gdk723033",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "cochons"
+    },
+    {
+      "id": "granola-photo",
+      "file": "https://files.guidedanmark.org/files/382/550_Granola_Ty_Stange.jpg",
+      "title": "Granola",
+      "caption": "Granola",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/granola-gdk412372",
+      "author": "Ty Stange",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/granola-gdk412372",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "granola"
+    },
+    {
+      "id": "viggo-photo",
+      "file": "https://files.guidedanmark.org/files/382/95202_Caf_Viggo_PR_Photo.jpg",
+      "title": "Café Viggo",
+      "caption": "Café Viggo",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/cafe-viggo-gdk807047",
+      "author": "© Café Viggo · Pr Photo",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/cafe-viggo-gdk807047",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "viggo"
+    },
+    {
+      "id": "hanzo-photo",
+      "file": "https://files.guidedanmark.org/files/382/181889_Hanzo_PR_photo_29.jpg",
+      "title": "Hanzō",
+      "caption": "Hanzō",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/hanzo-gdk950366",
+      "author": "© Hanzo PR photo · Pr Photo",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/hanzo-gdk950366",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "hanzo"
+    },
+    {
+      "id": "falernum-photo",
+      "file": "https://files.guidedanmark.org/files/382/236101_Falernum_Simon-Bang.jpg",
+      "title": "Falernum",
+      "caption": "Falernum",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/falernum-gdk657724",
+      "author": "© Wonderful Copenhagen · Simon Bang",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/falernum-gdk657724",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "falernum"
+    },
+    {
+      "id": "bobe-photo",
+      "file": "https://files.guidedanmark.org/files/382/337811_Bobe.jpg",
+      "title": "Bobe",
+      "caption": "Bobe",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/bobe-gdk1151724",
+      "author": "Bobe",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/bobe-gdk1151724",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "bobe"
+    },
+    {
+      "id": "sporvejen-photo",
+      "file": "https://files.guidedanmark.org/files/382/65903_Sporvejen.jpg",
+      "title": "Sporvejen",
+      "caption": "Sporvejen",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/sporvejen-gdk644036",
+      "author": "© Sporvejen · PR Photo",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/sporvejen-gdk644036",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "sporvejen"
+    },
+    {
+      "id": "hummer-photo",
+      "file": "https://files.guidedanmark.org/files/382/142982_Hummer.jpg",
+      "title": "Restaurant Hummer",
+      "caption": "Restaurant Hummer",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/restaurant-hummer-gdk1081419",
+      "author": "Robin Skjoldborg",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/restaurant-hummer-gdk1081419",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "hummer"
+    },
+    {
+      "id": "faergekro-photo",
+      "file": "https://files.guidedanmark.org/files/382/654_Nyhavns_Frgekro.jpg",
+      "title": "Nyhavns Færgekro",
+      "caption": "Nyhavns Færgekro",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/nyhavns-faergekro-gdk412443",
+      "author": "© Nyhavns Færgekro · PR Photo",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/nyhavns-faergekro-gdk412443",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "faergekro"
+    },
+    {
+      "id": "amalfi-photo",
+      "file": "https://restaurant-amalfi.dk/wp-content/uploads/2025/08/restaurant-amalfi-copenhagen-august-25-09-683x1024.jpg",
+      "title": "Amalfi",
+      "caption": "Amalfi",
+      "source": "https://restaurant-amalfi.dk/en/",
+      "author": "Amalfi / official website",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://restaurant-amalfi.dk/en/",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "amalfi"
+    },
+    {
+      "id": "lepave-photo",
+      "file": "https://lepave.dk/wp-content/uploads/2025/05/Borddaekningen-i-restauranten.jpg",
+      "title": "Le Pavé",
+      "caption": "Le Pavé",
+      "source": "https://lepave.dk/om-le-pave/",
+      "author": "Le Pavé / official website",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://lepave.dk/om-le-pave/",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "lepave"
+    },
+    {
+      "id": "huks-photo",
+      "file": "https://tholstrup.dk/wp-content/uploads/2026/08/Huks-Fluks_stueetage_restaurant_8-683x1024.jpg",
+      "title": "Huks Fluks",
+      "caption": "Huks Fluks",
+      "source": "https://tholstrup.dk/en/huks-fluks/",
+      "author": "Huks Fluks / official website",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://tholstrup.dk/en/huks-fluks/",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "huks"
+    },
+    {
+      "id": "caphorn-photo",
+      "file": "https://tholstrup.dk/wp-content/uploads/2026/07/caphorn_m-omme_20240528_2409_hi-res-1024x683.jpg",
+      "title": "Cap Horn",
+      "caption": "Cap Horn",
+      "source": "https://tholstrup.dk/en/cap-horn/",
+      "author": "Cap Horn / official website",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://tholstrup.dk/en/cap-horn/",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "caphorn"
+    },
+    {
+      "id": "havfruen-photo",
+      "file": "https://static.wixstatic.com/media/5c8d51_cbe689490f624572894f0ec18681f36f~mv2.jpg",
+      "title": "Havfruen",
+      "caption": "Havfruen",
+      "source": "https://www.restauranthavfruen.dk/",
+      "author": "Havfruen / official website",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.restauranthavfruen.dk/",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "havfruen"
+    },
+    {
+      "id": "heering-photo",
+      "file": "https://restaurantheering.dk/wp-content/uploads/2017/07/heering_forside_01-1-687x1030.jpg",
+      "title": "Heering",
+      "caption": "Heering",
+      "source": "https://restaurantheering.dk/en/home/",
+      "author": "Heering / official website",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://restaurantheering.dk/en/home/",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "restaurant",
+      "venue": "heering"
+    },
+    {
+      "id": "kodbyen-area",
+      "file": "https://www.visitcopenhagen.com/files/visitcopenhagen.com/2019-08/WarPigs_K%C3%B8dbyen_Martin-Heiberg.jpg",
+      "title": "Kødbyen · the meatpacking district",
+      "caption": "Kødbyen · the meatpacking district",
+      "source": "https://www.visitcopenhagen.com/copenhagen/areas/neighborhoods/guide-to-the-meatpacking-district",
+      "author": "Martin Heiberg",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/areas/neighborhoods/guide-to-the-meatpacking-district",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "neighbourhood"
+    },
+    {
+      "id": "norrebro-area",
+      "file": "https://www.visitcopenhagen.com/files/visitcopenhagen.com/2019-05/superkilen_sorteplads_thc.jpg",
+      "title": "A wider look at Nørrebro · Superkilen",
+      "caption": "A wider look at Nørrebro · Superkilen",
+      "source": "https://www.visitcopenhagen.com/copenhagen/areas/neighborhoods/norrebro-a-neighborhood-guide",
+      "author": "Thomas Høyrup Christensen",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/areas/neighborhoods/norrebro-a-neighborhood-guide",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "neighbourhood"
+    },
+    {
+      "id": "vaernedamsvej-area",
+      "file": "https://www.visitcopenhagen.com/files/visitcopenhagen.com/2019-08/v%C3%A6rnedamsvej_I4Q4396-1600px.jpg",
+      "title": "Værnedamsvej · Les Trois Cochons",
+      "caption": "Værnedamsvej · Les Trois Cochons",
+      "source": "https://www.visitcopenhagen.com/copenhagen/areas/neighborhoods/street-guide-sophisticated-vaernedamsvej",
+      "author": "Maria Sattrup",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/areas/neighborhoods/street-guide-sophisticated-vaernedamsvej",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "neighbourhood"
+    },
+    {
+      "id": "grabrodretorv-area",
+      "file": "https://files.guidedanmark.org/files/382/152406_Grbrdre_Torv_Photographer__Morten_Jerichau.jpg",
+      "title": "Gråbrødretorv · the old square",
+      "caption": "Gråbrødretorv · the old square",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/grabrodretorv-gdk414443",
+      "author": "Morten Jerichau",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/grabrodretorv-gdk414443",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "neighbourhood"
+    },
+    {
+      "id": "nyhavn-area",
+      "file": "https://files.guidedanmark.org/files/382/172495_Nyhavn_Meng.jpg",
+      "title": "Nyhavn · the harbour",
+      "caption": "Nyhavn · the harbour",
+      "source": "https://www.visitcopenhagen.com/copenhagen/planning/nyhavn-harbour-gdk426287",
+      "author": "Meng",
+      "date": "Source checked 31 October 2026",
+      "license": "Copyright retained by the original owner",
+      "licenseUrl": "https://www.visitcopenhagen.com/copenhagen/planning/nyhavn-harbour-gdk426287",
+      "changes": "Remote image from the named source; cropped for this concept preview.",
+      "kind": "neighbourhood"
+    }
+  ],
+  "concept": "Five named possibilities. One surprise table. All inventory and bookings are simulated; no restaurant partnerships."
+}
