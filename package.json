@@ -1,8 +1,8 @@
 {
-  "name": "tablechance-copenhagen",
+  "name": "seatme-copenhagen",
   "version": "1.0.0",
   "private": true,
-  "description": "Tablechance Copenhagen surprise-dining concept",
+  "description": "seatme Copenhagen surprise-dining concept",
   "engines": {
     "node": "22.x"
   },

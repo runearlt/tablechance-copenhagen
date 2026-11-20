@@ -1,4 +1,4 @@
-Build Tablechance Copenhagen, a separate Copenhagen edition of our existing surprise-dining website.
+Build seatme Copenhagen, a separate Copenhagen edition of our existing surprise-dining website.
 
 Keep the warm, editorial design, generous real photography and short, natural copy. Lead with “Book a surprise table. Enjoy a new experience.” Do not promise discounts or show prices or booking fees. Booking is free; meals are paid at the restaurant.
 

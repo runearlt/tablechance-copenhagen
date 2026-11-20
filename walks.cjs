@@ -22,7 +22,7 @@ function walk(origin, destination, deadline) {
     lastRequest = Date.now();
     const coordinates = [origin, destination].map(point => point.join(',')).join(';');
     const response = await fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/foot/${coordinates}?overview=full&geometries=geojson&steps=false&radiuses=35;35`, {
-      headers: { 'User-Agent': 'TablechancePrototype/1.0 (Copenhagen dining demo)' },
+      headers: { 'User-Agent': 'seatmePrototype/1.0 (Copenhagen dining demo)' },
       signal: AbortSignal.timeout(Math.max(1, Math.min(12000, deadline - Date.now())))
     });
     if (!response.ok) throw Error('Route service unavailable');

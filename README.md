@@ -1,6 +1,6 @@
-# Tablechance Copenhagen
+# seatme Copenhagen
 
-A separately deployed Copenhagen edition of the Tablechance surprise-dining concept. Free demo bookings; no prices or discount promises. This is not a real reservation service and none of the listed venues is a confirmed partner.
+A separately deployed Copenhagen edition of the seatme surprise-dining concept. Free demo bookings; no prices or discount promises. This is not a real reservation service and none of the listed venues is a confirmed partner.
 
 ## Run
 

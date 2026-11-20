@@ -31,5 +31,5 @@ const server = http.createServer(async (req, res) => {
     return send(error instanceof URIError ? 400 : 404, 'Not found');
   }
 });
-server.listen(Number(process.env.PORT || 10000), '0.0.0.0', () => console.log('Tablechance ready'));
+server.listen(Number(process.env.PORT || 10000), '0.0.0.0', () => console.log('seatme ready'));
 process.on('SIGTERM', () => server.close(() => process.exit(0)));
